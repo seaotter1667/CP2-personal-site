@@ -1,0 +1,400 @@
+/* リセット */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+/* ナビゲーションバー */
+.navbar {
+    padding: 0px;
+}
+
+.container-fluid {
+    display: flex !important;
+    justify-content: flex-end !important;
+    background-color: #37afe1;
+    
+}
+
+.container-fluid li a.nav-link,
+.container-fluid li a.nav-link.active {
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/* title */
+#title {
+    background-color: #37afe1;
+
+    height: 100vh; /* ビューポートの高さに合わせる */
+    display: flex;
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+    text-align: center; /* テキストの中央揃え */
+}
+
+@media (max-width: 768px) { /* スマホ画面の設定 */
+    #title {
+        height: 50vh !important; /* 高さを小さめに */
+    }
+}
+
+.sacramento-regular {
+    font-family: "Sacramento", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+h1 {
+    font-family: "Sacramento", cursive;
+    
+    margin: auto
+}
+
+.text-body-emphasis {
+    color: white !important;
+    font-size: 10rem;
+}
+
+.lead {
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'libre-baskerville', sans-serif;
+    font-weight: bold;
+    padding: 3rem 3rem 5rem 3rem;
+}
+
+@media (min-width: 992px) {
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: auto;
+    }
+}
+
+
+/* About me */
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'libre-baskerville', sans-serif;
+}
+
+#about-me {
+    background-color: #4CC9FE;
+
+    height: 100vh; /* ビューポートの高さに合わせる */
+    display: flex;
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+    text-align: center; /* テキストの中央揃え */
+}
+
+#about-me img {
+    border-radius: 50%;
+    height: 25rem;
+}
+
+#about-me h2 {
+    font-weight: 700;
+    font-size: 60px;
+    padding: 3rem 3rem 5rem 3rem;
+}
+
+@media (max-width: 768px) { /* スマホ画面の設定 */
+    #about-me h2 {
+        font-size: 2rem !important; 
+    }
+}
+
+.intro {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* My skills */
+#skills {
+    background-color: #F5F4B3;
+    height: 100vh; /* ビューポートの高さに合わせる */
+}
+
+#skills h2 {
+    font-weight: 700;
+    font-size: 60px;
+    padding: 10rem 3rem 5rem 3rem;
+}
+
+@media (max-width: 768px) { /* スマホ画面の設定 */
+    #skills h2 {
+        font-size: 2rem !important; 
+    }
+}
+
+h3 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-family: 'libre-baskerville', sans-serif;
+    font-size: 2rem;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+  
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+  
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+  
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+p {
+    font-family: 'roboto';
+    font-size: 1.5rem;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 3rem;
+}
+
+
+.parent img {
+    width: 150px; 
+    height: 150px; 
+}
+
+.typing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.research {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-certificate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Selected Works */
+#selected-work {
+    background-color: #F5F4B3;
+    height: 100vh; /* ビューポートの高さに合わせる */
+}
+
+#selected-work h2 {
+    font-weight: 700;
+    font-size: 60px;
+    padding: 10rem 3rem 5rem 3rem;
+}
+
+@media (max-width: 768px) { /* スマホ画面の設定 */
+    #selected-work h2 {
+        font-size: 2rem !important; 
+    }
+}
+
+.work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px; /* アイテム間のスペース */
+    margin-top: 3rem;
+}
+
+@media (max-width: 1200px) {
+    .work {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.work-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.work img {
+    width: 300px;
+    height: 180px;
+    border: 6px solid #FFFECB;
+    padding: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+    .work-item img {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+/* Get in touch */
+#contact-me {
+    background-color: #FFFECB;
+    padding-bottom: 3rem;
+}
+
+#contact-me h2 {
+    font-weight: 700;
+    font-size: 60px;
+    padding: 10rem 3rem 5rem 3rem;
+}
+
+@media (max-width: 768px) { /* スマホ画面の設定 */
+    #selected-work h2 {
+        font-size: 2rem !important; 
+    }
+}
+
+#contact-me .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    background: #FF8A8A;
+    background-image: linear-gradient(to bottom, #FF8A8A, #FF8383);
+    color: white;
+}
+
+#contact-me h3 {
+    display: inline-flex; /* 親要素の影響を排除 */
+    align-items: center; /* 子要素（テキストと画像）を中央揃え */
+    width: 80%;
+}
+
+.inline-icon {
+    display: inline; /* インライン要素として扱う */
+    width: 1em; /* テキストとバランスを取る大きさ */
+    height: auto; /* アスペクト比を維持 */
+    vertical-align: middle; /* 画像をテキストの高さに揃える */
+    margin-left: 0.2em; /* テキストと画像の間にスペースを追加 */
+}
+
+
+/* Footer */
+footer {
+    padding: 0.5rem 0 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: #FFC6C6;
+}
+
+.text-body-secondary {
+    color: white !important;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
